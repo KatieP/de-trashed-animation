@@ -28,8 +28,10 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 55417, function(sym, e) {
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 109448, function(sym, e) {
          // insert code here
+         $("body").css("background-color","white");
+
       });
       //Edge binding end
 
