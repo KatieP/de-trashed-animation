@@ -18,6 +18,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          // (replace "_self" with appropriate target attribute for a new window)
          window.open("http://www.detrashed.com/sign-up", "_self");
          
+         
 
       });
       //Edge binding end
@@ -115,6 +116,15 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          // Navigate to a new URL in the current window
          // (replace "_self" with appropriate target attribute for a new window)
          window.open("http://www.chem.unep.ch/pops/pdf/dioxinfuran/difurpt.pdf", "_self");
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Final_page_-_tagline}", "click", function(sym, e) {
+         // Navigate to a new URL in the current window
+         // (replace "_self" with appropriate target attribute for a new window)
+         window.open("http://www.detrashed.com/sign-up", "_self");
          
 
       });
