@@ -29,7 +29,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 160680, function(sym, e) {
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 165000, function(sym, e) {
          // insert code here
          $("body").css("background-color","white");
 
@@ -140,5 +140,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    
    })("Button-Symbol");
    //Edge symbol end:'Button-Symbol'
+
+   //=========================================================
+   
+   //Edge symbol: 'Preloader'
+   (function(symbolName) {   
+   
+   })("Preloader");
+   //Edge symbol end:'Preloader'
 
 })(jQuery, AdobeEdge, "EDGE-306642205");

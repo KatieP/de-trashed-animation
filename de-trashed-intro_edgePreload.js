@@ -63,7 +63,31 @@ var plSTF="both",ctrPlS="horizontal",minPlW="0",maxPlW=undefined,plWidth="1920px
 
 preContent={
     dom: [
-]};//simpleContent
+    {
+        id: 'LOADING',
+        type: 'text',
+        rect: ['570px', '322px','757px','112px','auto', 'auto'],
+        text: "LOADING",
+        align: "center",
+        font: ['Arial, Helvetica, sans-serif', [3.8, "em"], "rgba(178,178,178,1.00)", "normal", "none", "italic"]
+    },
+    {
+        id: 'SKIP',
+        type: 'text',
+        linkURL: "http://www.detrashed.com/#/signup",
+        linkTarget: "newWindow",
+        rect: ['1574px', '1005px','314px','62px','auto', 'auto'],
+        text: "SKIP TO LOGIN",
+        align: "right",
+        font: ['Verdana, Geneva, sans-serif', [1.87, "em"], "rgba(171,171,171,1.00)", "400", "none", "italic"]
+    },
+    {
+        id: 'preloader42',
+        type: 'image',
+        tag: 'img',
+        rect: ['869px', '465px','150px','150px','auto', 'auto'],
+        fill: ["rgba(0,0,0,0)",'images/preloader42.gif','0px','0px']
+    }]};//simpleContent
 
 dlContent={
     dom: [
